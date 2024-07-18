@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    form(action='' method='POST')
+        label(for='file')
+        input(type='file' name='file' accept='.mp3' required) 
+        button(type='submit') Upload
